@@ -1,6 +1,13 @@
+body{
+    font-size: 18px;
+     
+}
 .container {
-  max-width: 1440px;
-  
+    max-width: 1440px; 
+
+  position: relative;
+    
+   
   
 }
 
@@ -24,19 +31,75 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  margin-top: 50px;
+ 
 }
-img{
-    position: relative;
-    width: 100%;
-    height: auto;
-}
+
+
 ul{
     list-style: none;
+    padding: 20px;
+
 
 }
 li{
     display: inline;
+    padding: 20px;
 }
-.first{
- margin: 0 auto;
+.col {
+ padding: 0px;
+  position: relative;
+ 
+}
+.col .overlay {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+ font-size: 15px;
+ margin: 50px 100px;
+}
+.paragraph{
+
+    margin: 150px 50px 150px 10px;
+}
+h2{
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+}
+.photo{
+    border: 2px;
+    border-radius: 80px;
+    size: 50px;
+}
+.testimony{
+    text-align: center;
+    line-height: 2;
+    font-family: 'Fraunces', serif;
+    margin: 50px;
+}
+.client{
+    text-align: center;
+    margin: 100px 50px;
+}
+.client p{
+    margin: 40px 50px;
+    
+}
+footer{
+    background: hsl(168, 34%, 41%);
+    text-align: center;
+    padding: 50px ;
+ 
+}
+.contact{
+    border:white 1px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    background: white;
+    color: black;
 }
