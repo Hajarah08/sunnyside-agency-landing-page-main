@@ -1,0 +1,42 @@
+.container {
+  max-width: 1440px;
+  
+  
+}
+
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+ 
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    display: inline;
+}
+.first{
+ margin: 0 auto;
+}
