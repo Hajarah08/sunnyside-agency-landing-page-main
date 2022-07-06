@@ -28,14 +28,15 @@ body{
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  margin-top: 50px;
+  font-size: 50px;
+  margin-top: -200px;
  
 }
 
@@ -58,14 +59,14 @@ li{
 .col .overlay {
   position: absolute;
   left: 0;
-  bottom: 10px;
+  bottom: 80px;
   text-align: center;
  font-size: 15px;
- margin: 50px 100px;
+ margin: 50px ;
 }
 .paragraph{
 
-    margin: 150px 50px 150px 10px;
+    margin: 100px 50px ;
 }
 h2{
     font-family: 'Fraunces', serif;
@@ -93,7 +94,8 @@ h2{
 footer{
     background: hsl(168, 34%, 41%);
     text-align: center;
-    padding: 50px ;
+    padding: 30px ;
+    margin: 0 auto;
  
 }
 .contact{
@@ -102,4 +104,38 @@ footer{
     padding: 5px 15px;
     background: white;
     color: black;
+}
+@media (max-width: 800px) {
+    body{
+        text-align: center;
+    }
+    .photo {
+        display: block;
+        text-align: center;
+
+    }
+   
+.paragraph{
+    padding: 0;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    padding: 0;
+
+}
+col {
+ padding: 0px;
+  position: relative;
+ 
+}
+.col .overlay {
+  position: absolute;
+  left: 0;
+  top: 90px;
+  text-align: center;
+ font-size: 12px;
+ margin: 20px ;
+}
+
 }
